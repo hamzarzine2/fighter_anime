@@ -1,6 +1,6 @@
 package model;
 
-public class Perso {
+public abstract class Perso {
     private int health;
     private String name;
     private int power;
