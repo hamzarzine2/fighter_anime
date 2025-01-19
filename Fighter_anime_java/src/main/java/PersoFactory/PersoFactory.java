@@ -12,7 +12,7 @@ public class PersoFactory {
     private Map<PersoType, Perso> preBuildPersos;
 
     //todo : how to do it ? all the put inside the factory ? how make the name ?
-    private PersoFactory() {
+    public PersoFactory() {
         preBuildPersos = new HashMap<PersoType, Perso>();
         preBuildPersos.put(PersoType.TANK, new Tank("Tank"));
         preBuildPersos.put(PersoType.WARRIOR, new Warrior("Warrior"));
